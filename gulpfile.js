@@ -15,7 +15,7 @@ gulp.task('browserSync', () => {
 gulp.task('build-css', () => {
   return gulp.src('src/style/style.scss')
     .pipe(sass())
-    .pipe(gulp.dest('public/stylesheets'))
+    .pipe(gulp.dest('public/stylesheets/'))
     .pipe(bs.reload({ stream: true}));
 });
 

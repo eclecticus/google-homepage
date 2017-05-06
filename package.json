@@ -1,0 +1,31 @@
+{
+  "name": "google-page-design",
+  "version": "1.0.0",
+  "description": "minimal design of google homepage",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eclecticus/google-homepage.git"
+  },
+  "keywords": [
+    "gulp",
+    "google",
+    "browsersync",
+    "css",
+    "scss",
+    "design"
+  ],
+  "author": "oreoluwa aboluwarin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eclecticus/google-homepage/issues"
+  },
+  "homepage": "https://github.com/eclecticus/google-homepage#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1"
+  }
+}
